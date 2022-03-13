@@ -11,7 +11,7 @@ class Program
         int[] b = new int[n];
         
         Console.WriteLine("Введите координаты точки А через пробел");
-        string[] strA = Console.ReadLine().Split(new char[] { ' ', '\n', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+        string[] strA = Console.ReadLine().Split(new char[] { ' ', '\n', '\t' }, StringSplitOptions.RemoveEmptyEntries); // нашел этот способ где-то на форуме, он работает, но объснить не смогу))
         for (i = 0; i < (n < strA.Length ? n : strA.Length); ++i)
         a[i] = Convert.ToInt32(strA[i]);
 
