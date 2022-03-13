@@ -1,4 +1,4 @@
-﻿// Задача 22: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу квадратов чисел от 1 до N.
+﻿// Задача 23: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
 using System;
 class Program  
@@ -14,11 +14,9 @@ class Program
         for(int i = 1; i <= number; i++)
         {
 	    Console.Write(i + " -> ");
-        Console.Write(Math.Pow(i, 2));
+        Console.Write(Math.Pow(i, 3));
         Console.WriteLine();
-	    }
-        
-        
+	    } 
     
     }
     
