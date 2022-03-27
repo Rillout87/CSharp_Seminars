@@ -13,16 +13,18 @@ namespace DZ_Task_25
             Console.WriteLine("Введите А");
             int nmb = Convert.ToInt32(Console.ReadLine());
 
-            int count = nmb;
+            
             Console.WriteLine("Введите В");
             int degree = Convert.ToInt32(Console.ReadLine());
+            
+            var power = nmb;
 
             for (int i = 1; i < degree; i++)
             {
                 
-                count *= nmb;
+                power *= nmb;
             }
-            Console.WriteLine(count);
+            Console.WriteLine(power);
 
         }
 
