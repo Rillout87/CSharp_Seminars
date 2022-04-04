@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/DZ_Task_41/bin/Debug/net6.0/DZ_Task_41.dll",
+            "program": "${workspaceFolder}/DZ_Task_52/bin/Debug/net6.0/DZ_Task_52.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/DZ_Task_41",
+            "cwd": "${workspaceFolder}/DZ_Task_52",
             "console": "internalConsole",
             "stopAtEntry": false
         },
