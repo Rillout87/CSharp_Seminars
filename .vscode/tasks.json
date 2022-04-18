@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/DZ_Task_54/DZ_Task_54.csproj",
+                "${workspaceFolder}/DZ_Task_10_2/DZ_Task_10_2.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/DZ_Task_54/DZ_Task_54.csproj",
+                "${workspaceFolder}/DZ_Task_10_2/DZ_Task_10_2.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/DZ_Task_54/DZ_Task_54.csproj"
+                "${workspaceFolder}/DZ_Task_10_2/DZ_Task_10_2.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
